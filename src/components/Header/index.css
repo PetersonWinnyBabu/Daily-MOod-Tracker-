@@ -1,0 +1,158 @@
+.header-container {
+  align-self: flex-start;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #42404d;
+  border: 1px solid;
+}
+@media (min-width: 992px) {
+  .title-name {
+    height: 48px;
+    padding-left: 62px;
+    opacity: 1;
+    color: #ffbe38;
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    letter-spacing: 0%;
+  }
+  .options-container {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    gap: 37px;
+    margin-right: 33px;
+  }
+  .popup-container {
+    display: none;
+  }
+  .hamburgerIcon {
+    display: none;
+  }
+  .trigger-button {
+    display: none;
+  }
+  .popup-content {
+    display: none;
+  }
+
+  .links {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .options {
+    opacity: 1;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+  .logout-button {
+    background: none;
+    width: 133px;
+    height: 56px;
+    opacity: 1;
+    gap: 10px;
+    padding-top: 4px;
+    padding-right: 26px;
+    padding-bottom: 4px;
+    padding-left: 26px;
+    border: 1px solid #ffbe38;
+    border-radius: 13px;
+    color: #ffbe38;
+    cursor: pointer;
+    outline: none;
+  }
+}
+@media (max-width: 992px) {
+  .header-container {
+    height: 57px;
+  }
+  .title-name {
+    height: 48px;
+    padding-top: 4px;
+    padding-left: 16px;
+    opacity: 1;
+    color: #ffbe38;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 48px;
+    letter-spacing: 0%;
+  }
+  .options-container {
+    display: none;
+  }
+  .popup-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .trigger-button {
+    color: white;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 22px;
+    border: none;
+  }
+  .close-Button {
+    align-self: flex-end;
+    font-size: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+  }
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #42404d;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .links {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .options {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+  }
+  .logout-button {
+    background: none;
+    width: 106px;
+    height: 43px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 6px;
+    border-width: 1px;
+    padding-top: 12px;
+    padding-right: 26px;
+    padding-bottom: 12px;
+    padding-left: 26px;
+    border: 1px solid #ffbe38;
+    color: #ffbe38;
+  }
+}

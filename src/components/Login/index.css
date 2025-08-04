@@ -1,0 +1,190 @@
+.login-background {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-width: 360px;
+}
+
+.login-form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+  border-radius: 27.29px;
+  border-width: 2.05px;
+  background: linear-gradient(
+    142.42deg,
+    rgba(114, 104, 117, 0.21) 1.79%,
+    rgba(117, 116, 117, 0) 100.42%
+  );
+  border: 2.05px solid;
+
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(19, 18, 18, 0.28) 2.05%,
+    rgba(53, 51, 51, 0) 92.82%
+  );
+  backdrop-filter: blur(116px);
+
+  box-shadow: 6.82px 6.82px 16.37px 0px rgba(81, 81, 81, 0.4) inset;
+
+  box-shadow: -6.82px -6.82px 20.46px 0px rgba(40, 38, 38, 0.46) inset;
+}
+.login-form-heading {
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  text-align: center;
+}
+.login-form {
+  width: 360px;
+}
+
+.login-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.login-input-label {
+  width: 65px;
+  height: 16px;
+  color: #f2f2f2;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1%;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.inputBox {
+  top: 24px;
+  border-radius: 39px;
+
+  font-weight: 400;
+  border: 1px solid #d7dfe9;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  background: #343243;
+  padding-left: 10px;
+  outline: none;
+  color: #ffffff;
+}
+
+.checkbox-label {
+  margin-left: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.checkbox {
+  width: 16px;
+  height: 16px;
+}
+.login-button {
+  border-radius: 8px;
+  border: none;
+  background: #ffbe38;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  outline: none;
+  color: #000000;
+}
+.error-message {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ef4444;
+}
+/*///////////////////////////////////*/
+@media (min-width: 992px) {
+  .login-form-container {
+    width: 797px;
+    height: 509px;
+    padding: 30px;
+  }
+  .login-form {
+    width: 360px;
+  }
+  .login-form-heading {
+    width: 340px;
+    height: 48px;
+    font-size: 36px;
+  }
+  .login-input-container {
+    width: 360px;
+    height: 64px;
+  }
+  .inputBox {
+    width: 360px;
+    height: 40px;
+  }
+  .show-password {
+    width: 360px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .login-button {
+    width: 360px;
+    height: 40px;
+  }
+}
+
+/*////////////////////////////////////////////*/
+@media (max-width: 992px) {
+  .Login-form-container {
+    width: 312px;
+    height: 420px;
+    padding: 10px;
+  }
+  .Login-form-heading {
+    width: 227px;
+    height: 48px;
+    font-size: 24px;
+    top: 128px;
+    left: 66px;
+  }
+  .login-form {
+    width: 280px;
+  }
+  .Login-input-container {
+    width: 280px;
+    height: 64px;
+  }
+  .inputBox {
+    width: 280px;
+    height: 40px;
+  }
+  .show-password {
+    width: 280px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .login-button {
+    width: 280px;
+    height: 40px;
+  }
+}

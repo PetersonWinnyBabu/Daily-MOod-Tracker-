@@ -1,0 +1,102 @@
+@media (min-width: 992px) {
+  .emoji-report {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 249.60000610351562px;
+    height: 254px;
+    opacity: 1;
+    border-radius: 27.29px;
+    border-width: 2.05px;
+
+    background: linear-gradient(
+      145.12deg,
+      rgba(114, 104, 117, 0.21) 1.78%,
+      rgba(117, 116, 117, 0) 125.71%
+    );
+    border: 2.05px solid;
+
+    border-image-source: linear-gradient(
+      139.28deg,
+      rgba(90, 86, 86, 0.28) 2.05%,
+      rgba(0, 0, 0, 0) 92.82%
+    );
+  }
+  .emoji-name {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+  .emoji-report-image {
+    width: 50px;
+    height: 50px;
+
+    box-shadow: transparent 0px -3px 24px 0px #ffffff;
+
+    box-shadow: transparent 0px 2px 8px 0px #f7f7f7;
+  }
+  .count-emoji {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 992px) {
+  .emoji-report {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 160px;
+    height: 144px;
+    opacity: 1;
+    border-radius: 27.29px;
+    border-width: 2.05px;
+
+    background: linear-gradient(
+      145.12deg,
+      rgba(114, 104, 117, 0.21) 1.78%,
+      rgba(117, 116, 117, 0) 125.71%
+    );
+    border: 2.05px solid;
+
+    border-image-source: linear-gradient(
+      139.28deg,
+      rgba(90, 86, 86, 0.28) 2.05%,
+      rgba(0, 0, 0, 0) 92.82%
+    );
+    padding: 0px;
+  }
+  .emoji-name {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+  .emoji-report-image {
+    width: 24px;
+    height: 24px;
+
+    box-shadow: transparent 0px -3px 24px 0px #ffffff;
+
+    box-shadow: transparent 0px 2px 8px 0px #f7f7f7;
+  }
+  .count-emoji {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+
+    letter-spacing: 0%;
+
+    color: #ffffff;
+  }
+}
