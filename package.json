@@ -2,7 +2,7 @@
     "name": "daily-mood-tracker",
     "version": "1.0.0",
     "engines": {
-        "node": "22.x",
+        "node": "^22.x",
     },
     "dependencies": {
         "@emotion/react": "11.14.0",
